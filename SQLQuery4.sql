@@ -1,0 +1,69 @@
+INSERT INTO rozliczenia.pensje (
+	[id_pensji],
+	[id_premii],
+	[kwota],
+	[stanowisko]
+)
+VALUES
+(
+	'PEN1',
+	'P1',
+	6000,
+	'Paladin'
+),
+(
+	'PEN2',
+	'P2',
+	11000,
+	'Warlock'
+),
+(
+	'PEN3',
+	'P3',
+	7000,
+	'Shaman'
+),
+(
+	'PEN4',
+	'P4',
+	3500,
+	'Warrior'
+),
+(
+	'PEN5',
+	'P5',
+	4500,
+	'Tank'
+),
+(
+	'PEN6',
+	'P6',
+	5500,
+	'Priest'
+),
+(
+	'PEN7',
+	'P7',
+	6500,
+	'Mage'
+),
+(
+	'PEN8',
+	'P8',
+	4500,
+	'Monk'
+),
+(
+	'PEN9',
+	'P9',
+	15000,
+	'Demon Hunter'
+),
+(
+	'PEN10',
+	'P10',
+	7000,
+	'Hunter'
+)
+
+SELECT * FROM rozliczenia.pensje;
